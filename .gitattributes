@@ -1,0 +1,16 @@
+# Normalize line endings across platforms
+# Keep source files with LF on GitHub; Windows editors use CRLF locally
+*.py          text eol=lf
+*.yml         text eol=lf
+*.yaml        text eol=lf
+*.md          text eol=lf
+*.txt         text eol=lf
+*.json        text eol=lf
+
+# Scripts that should keep CRLF on Windows
+*.bat         text eol=crlf
+*.cmd         text eol=crlf
+*.ps1         text eol=crlf
+
+# Default behavior
+*             text=auto
